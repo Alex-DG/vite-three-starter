@@ -1,6 +1,6 @@
 # Vite Three Starter
 
-Quick three.js starter project made with vite
+Quick and light three.js starter project made with vite
 
 ## Setup
 
