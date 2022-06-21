@@ -2,9 +2,11 @@
 
 Quick and light three.js starter project made with vite
 
+[Live demo](https://vite-three-starter.vercel.app/)
+
 ## Setup
 
-Run this followed commands:
+Run the following commands:
 
 ```bash
 # Install dependencies (only the first time)
