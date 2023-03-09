@@ -1,8 +1,18 @@
-import glsl from 'vite-plugin-glsl'
+// vite.config.js
 import { defineConfig } from 'vite'
+import glsl from 'vite-plugin-glsl'
 
-// https://vitejs.dev/config/
-export default defineConfig({
-  plugins: [glsl()],
-  assetsInclude: ['**/*.glb', '**/*.gltf'],
+export default defineConfig(({ mode }) => {
+  return {
+    plugins: [glsl()],
+    assetsInclude: [
+      '**/*.glb',
+      '**/*.gltf',
+      '**/*.fbx',
+      '**/*.mp4',
+      '**/*.webp',
+      '**/*.png',
+      '**/*.jpg',
+    ],
+  }
 })
